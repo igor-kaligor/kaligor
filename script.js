@@ -8,7 +8,7 @@ function template_img(){
         return response.json();
     })
     .then( function(myJson){
-        console.log(myJson)
+        /*console.log(myJson)*/
         Timg(myJson)
     })
 
